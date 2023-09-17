@@ -1,0 +1,8 @@
+# Ignore Terraform state files and directories
+**/.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignore IntelliJ files
+.idea
+
