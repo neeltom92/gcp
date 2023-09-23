@@ -57,7 +57,7 @@ resource "google_container_node_pool" "primary_nodes" {
   name       = google_container_cluster.primary.name
   location   = "us-west1-a"
   cluster    = google_container_cluster.primary.name
-  node_count = 1
+  node_count = 3
 
   node_config {
     oauth_scopes = [
